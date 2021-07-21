@@ -11,10 +11,12 @@ async function connect() {
     const result = await channel.assertQueue("jobs");
 
     await channel.consume("jobs" , (message) => {
-        let input = JSON.parse(message.content);
+      let input = JSON.parse(message.content);
 
-        // accept message queue then added to ipWorker 
-        ipWorker(input);
+      // accept message queue then added to ipWorker
+      ipWorker(input);
+      // acknowledge message
+      channel.ack(message);
     } ,{
       noAck : false
     })
