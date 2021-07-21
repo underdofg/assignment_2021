@@ -10,7 +10,7 @@
 $ npm install
 ```
 
-# Building RabbitMQ sever
+## Building RabbitMQ sever
 
 * Building an image
 
@@ -18,7 +18,7 @@ $ npm install
 $ docker-compose up
 ```
 
-# Building publisher source
+## Building publisher source
 
 * start
 
@@ -30,7 +30,7 @@ $ cd app
 ```bash
 $ npm run publish
 ```
-# Building consumer & destination
+## Building Ip Worker & destination
 
 * start running 
 
