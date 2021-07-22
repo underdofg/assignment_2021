@@ -30,6 +30,18 @@ $ cd app
 ```bash
 $ npm run publish
 ```
+
+* receives BODY parameters 
+*url  http://localhost:4000*
+
+  {
+     "ip_address" : "exampleTicket",
+     "username" : "exampleDescription"
+  }
+
+* receives BODY parameters 
+
+
 ## Building Ip Worker & destination
 
 * start running 
