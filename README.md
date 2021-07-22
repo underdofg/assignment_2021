@@ -37,7 +37,7 @@ $ npm run publish
 
 
   {
-     "ip_address" : "00.00.000.00"
+     "ip_address" : "00.00.000.00",
      "username" : "rabbitadmin"
   }
 
