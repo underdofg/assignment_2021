@@ -31,15 +31,16 @@ $ cd app
 $ npm run publish
 ```
 
+* url GET  *http://localhost:4000*
+
 * receives BODY parameters 
-*url  http://localhost:4000*
+
 
   {
-     "ip_address" : "exampleTicket",
-     "username" : "exampleDescription"
+     "ip_address" : "rabbitadmin",
+     "username" : "00.00.000.00"
   }
 
-* receives BODY parameters 
 
 
 ## Building Ip Worker & destination

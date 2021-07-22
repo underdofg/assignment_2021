@@ -10,7 +10,7 @@ const ipWorker = async (input) => {
   };
   
   let body = "";
-  let link = `https://ipapi.co/${ip_address}/json/?key=zEThXoSTOJSP6ADwfGLlxSGSvgFhpSAaTd1B1tSZyfIPiSlDpp`;
+  let link = `https://ipapi.co/${ip_address}/json`;
 
   https.get(link, function (resp) {
     resp.on("data", function (data) {
